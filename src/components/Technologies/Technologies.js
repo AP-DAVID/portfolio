@@ -2,7 +2,6 @@ import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
-
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
@@ -20,7 +19,10 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            React.js<br />
+            Next.js<br />
+            React Testing tools<br />
+            React Native<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +34,10 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node.js<br />
+            mongoDB <br />
+            Express<br />
+            
           </ListParagraph>
         </ListContainer>
       </ListItem>
