@@ -10,7 +10,7 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Welcome To <br />
-          My Personal Portfolio
+          My Portfolio
         </SectionTitle>
         <SectionText>
         Hi, my name is Akintola Abiodun
