@@ -9,20 +9,28 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Mood Cognizant Recommender System',
-    description:"MCRS takes the user's image for emotion detection then recommends a song(based on a genre) that suits the emotion.",
-    image: '/images/images.jfif',
-    tags: ['React Native', 'JavaScript'],
-    visit: 'https://github.com/AP-DAVID/MCRS',
-    id: 1,
+    title: 'Blyte tech',
+    description: "Blyte tech is a nigerian tech company made of smart talented individuals working towards proving to themselves that they can build a profitable tech multinational corporation",
+      image: '/images/blyte.png',
+      tags: ['Mongo', 'Express', 'React.js(Next)', 'Node'],
+    source: 'https://blytetech.com.ng',
+    id: 2,
   },
   {
-    title: 'West Africa Voting Application',
-    description: "Genuine, inclusive, free and fair elections are an indispensable component of democratic governance, rule of law and respect for human rights alike, This Application will do just that",
-      image: '/images/voting.png',
-      tags: ['Mongo', 'Express', 'React.js(Next)', 'Node'],
-    source: 'https://westafric.vercel.app',
-    id: 2,
+    title: "Blog",
+    description: "Blyte's blog",
+    image: '/images/blog.png',
+    tags: ['React', 'Express', 'Node', 'MongoDB'],
+    source: 'https://www.blytetech.com.ng/blog',
+    id: 4,
+  },
+  {
+    title: "ASMS",
+    description: "A student management System",
+    image: '/images/umis.png',
+    tags: ['React', 'Express', 'Node', 'MongoDB'],
+    source: 'https://umisexample.vercel.app',
+    id: 4,
   },
   {
     title: 'Game X',
@@ -32,6 +40,16 @@ export const projects = [
     source: 'https://gamex.vercel.app',
     id: 3,
   },
+
+  {
+    title: 'Mood Cognizant Recommender System',
+    description:"MCRS takes the user's image for emotion detection then recommends a song(based on a genre) that suits the emotion.",
+    image: '/images/images.jfif',
+    tags: ['React Native', 'JavaScript'],
+    visit: 'https://github.com/AP-DAVID/MCRS',
+    id: 1,
+  },
+ 
 ];
 
 export const TimeLineData = [
