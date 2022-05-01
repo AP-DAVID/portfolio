@@ -8,6 +8,32 @@ export const projects = [
     visit: 'https://github.com/AP-DAVID/music-ecosystem',
     id: 0,
   },
+   {
+    title: "ASMS",
+    description: "A student management System",
+    image: '/images/umis.png',
+    tags: ['React', 'Express', 'Node', 'MongoDB'],
+    source: 'https://umisexample.vercel.app',
+    id: 1,
+  },
+   {
+    title: "Crogam",
+    description: "Crogam tech",
+    image: '/images/crogam.png',
+    tags: ['React', 'Next js'],
+    source: 'https://crogam.vercel.app/#gamex',
+    id: 5,
+  },
+  {
+    title: "Davidcom",
+    description: "An ecommerce website developed using React(Next js) and snipcart",
+    image: '/images/davidcom.png',
+    tags: ['React', 'Next js', 'Snipcart'],
+    source: 'https://ecommerce-ap-david.vercel.app/',
+    id: 6,
+    visit : "https://github.com/AP-DAVID/Ecommerce.git"
+  },
+
   {
     title: 'Blyte tech',
     description: "Blyte tech is a nigerian tech company made of smart talented individuals working towards proving to themselves that they can build a profitable tech multinational corporation",
@@ -24,31 +50,15 @@ export const projects = [
     source: 'https://www.blytetech.com.ng/blog',
     id: 4,
   },
-  {
-    title: "ASMS",
-    description: "A student management System",
-    image: '/images/umis.png',
-    tags: ['React', 'Express', 'Node', 'MongoDB'],
-    source: 'https://umisexample.vercel.app',
-    id: 4,
-  },
-  {
-    title: 'Game X',
-    description: "A game tournament",
-    image: '/images/exher.png',
-    tags: ['React', 'Express', 'Node', 'MongoDB'],
-    source: 'https://gamex.vercel.app',
-    id: 3,
-  },
 
-  {
-    title: 'Mood Cognizant Recommender System',
-    description:"MCRS takes the user's image for emotion detection then recommends a song(based on a genre) that suits the emotion.",
-    image: '/images/images.jfif',
-    tags: ['React Native', 'JavaScript'],
-    visit: 'https://github.com/AP-DAVID/MCRS',
-    id: 1,
-  },
+  // {
+  //   title: 'Mood Cognizant Recommender System',
+  //   description:"MCRS takes the user's image for emotion detection then recommends a song(based on a genre) that suits the emotion.",
+  //   image: '/images/images.jfif',
+  //   tags: ['React Native', 'JavaScript'],
+  //   visit: 'https://github.com/AP-DAVID/MCRS',
+  //   id: 5,
+  // },
  
 ];
 

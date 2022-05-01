@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
 
-      I’m a full stack Web Engineer currently unemployed. A React.js and CSS nerd trying to delve into Machine Learning, AI and Robotics. I am also a member of the Developer Team and Community (BUCC) in my school. I believe as engineers we can create things that could potentially change the world for the better      </SectionText>
+      I’m a Software developer. A React.js and CSS nerd trying to delve into Machine Learning, AI and Robotics. I am also a member of the Developer Team and Community (BUCC) in my school. I believe as engineers we can create things that could potentially change the world for the better      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

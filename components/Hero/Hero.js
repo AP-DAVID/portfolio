@@ -13,8 +13,9 @@ const Hero = (props) => (
           My Portfolio
         </SectionTitle>
         <SectionText>
-        Hi, my name is Akintola Abiodun
+        Hi, my name is Akintola Abiodun. I'm a software developer
         </SectionText>
+        <a href="/files/Akintola_Abiodun.pdf" style={{border : 2, borderColor : "red"}} download><h3>download CV</h3></a>
         
       </LeftSection>
     </Section>

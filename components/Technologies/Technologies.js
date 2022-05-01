@@ -23,6 +23,8 @@ const Technologies = () =>  (
             Next.js<br />
             React Testing tools<br />
             React Native<br />
+            Python<br />
+            Java<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
